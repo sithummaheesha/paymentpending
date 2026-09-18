@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Temporarily Unavailable</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f5f6f8;
+      color: #171717;
+      padding: 24px;
+    }
+    .card {
+      width: min(620px, 100%);
+      background: #fff;
+      border: 1px solid #e5e7eb;
+      border-radius: 18px;
+      padding: 52px 38px;
+      text-align: center;
+      box-shadow: 0 12px 40px rgba(0,0,0,.07);
+    }
+    .icon {
+      width: 64px;
+      height: 64px;
+      margin: 0 auto 24px;
+      border-radius: 50%;
+      background: #111827;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 28px;
+      font-weight: 700;
+    }
+    h1 {
+      font-size: clamp(26px, 5vw, 38px);
+      margin-bottom: 16px;
+      letter-spacing: -0.7px;
+    }
+    p {
+      color: #626873;
+      font-size: 16px;
+      line-height: 1.7;
+      max-width: 470px;
+      margin: 0 auto;
+    }
+    .notice {
+      margin-top: 28px;
+      padding: 15px 18px;
+      background: #f9fafb;
+      border-radius: 10px;
+      color: #4b5563;
+      font-size: 14px;
+    }
+    .footer {
+      margin-top: 28px;
+      color: #9ca3af;
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <div class="icon">!</div>
+    <h1>Website Temporarily Unavailable</h1>
+    <p>
+      This website has been temporarily suspended due to an outstanding
+      payment. Please contact the website owner to restore access.
+    </p>
+
+    <div class="notice">
+      Access will be restored once the outstanding payment has been resolved.
+    </div>
+
+    <div class="footer">
+      Thank you for your understanding.
+    </div>
+  </main>
+</body>
+</html>
